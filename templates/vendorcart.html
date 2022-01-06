@@ -19,7 +19,8 @@
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
 
-              <h1>MY CURRENT CART:</h1>
+              <h1>Items currently in Store:</h1>
+              <br>
 
 
                   {% for x in vendorproducts %}
@@ -32,7 +33,6 @@
                     <input type="hidden" name="prodid" value={{x.id}}>
                   </form>
 
-                  Total Price: {{x.total}}
 
 
                   <br>
