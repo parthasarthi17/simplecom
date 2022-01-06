@@ -1,0 +1,21 @@
+<html>
+   <body>
+      <form action="{{ url_for('uploadproducts') }}" method = "POST" enctype = "multipart/form-data">
+        Name: <input type = "text" name = "productname" />
+        <br>
+        Desc: <input type = "text" name = "productdesc" />
+        <br>
+        Category: <input type = "text" name = "category" />
+        <br>
+        Brand: <input type = "text" name = "brand" />
+        <br>
+        Price: <input type = "number" name = "price" />
+        <br>
+        Discount: <input type = "number" name = "discount" />
+        <br>
+        Upload Image: <input type = "file" name = "file" />
+         <br>
+         <input type = "submit"/>
+      </form>
+   </body>
+</html>
